@@ -23,8 +23,8 @@ app.use(express.json());
 
 // Bot configuration
 const BOT_CONFIG = {
-  host: 'bigahas443-89hG.aternos.me',
-  port: 22665,
+  host: '157.90.5.77',
+  port: 11160,
   username: process.env.BOT_USERNAME || 'BedrockBot_' + Math.floor(Math.random() * 1000),
   offline: true,
   version: '1.21.111'
